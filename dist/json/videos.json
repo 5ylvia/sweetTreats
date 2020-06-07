@@ -1,0 +1,54 @@
+{
+    "videos" : [
+        {
+        "id": "qY22HPfafSQ",
+        "title": "What is Love?",
+        "category": "TWICE"
+        },
+        {
+        "id": "FIDJsPgjDnU",
+        "title": "Dance The Night Away",
+        "category": "TWICE"
+        },
+        {
+        "id": "2BlwXXVCAFM",
+        "title": "FANCY",
+        "category": "TWICE"
+        },
+        {
+        "id": "amUDYTx8R4g",
+        "title": "LION",
+        "category": "(G)I-DLE"
+        },
+        {
+        "id": "XqWJO6GLnfE",
+        "title": "Luv U",
+        "category": "(G)I-DLE"
+        },
+        {
+        "id": "bkGSf9VeWTE",
+        "title": "Kill This Love",
+        "category": "Red Velvet"
+        },
+        {
+        "id": "_QNVIgXOrBM",
+        "title": "Umpah Umpah",
+        "category": "Red Velvet"
+        },
+        {
+        "id": "1dxnzJEusc4",
+        "title": "Blood Sweat & Tears",
+        "category": "BTS"
+        },
+        {
+        "id": "EV4m3nX49ZE",
+        "title": "Not Today",
+        "category": "BTS"
+        },
+        {
+        "id": "QZDlXW05M0c",
+        "title": "HOME",
+        "category": "SEVENTEEN"
+        }  
+    ]
+}

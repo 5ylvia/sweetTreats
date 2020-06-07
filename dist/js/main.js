@@ -1,34 +1,27 @@
-$(function() {
-    var videoArray = [{
-        videoId: "BtLwoNJ6klE",
-        title: "Arduino Basics 101",
-        category: "arduino"
-        },
-        {
-        videoId: "YT3birSKLLU",
-        title: "Arduino Basics 101",
-        category: "arduino"
-        }
-    ];
+const el_videoList = $('#video-thumbnails');
 
-    function makeVideoHTML(videoObject) {
-        return `
-        <div class="video">
-            <img src="https://img.youtube.com/vi/${videoObject.videoId}/mqdefault.jpg" class="video__thumbnail" alt=${videoObject.title}">
-            <h3 class="video__title">${videoObject.title}</h3>
-            <p class="video__category">${videoObject.category}</p>
-        </div>`
-    }
+function init () {
+    $.getJSON('/dist/json/videos.json', function(data) {
+        var videosArray = data.videos;
+        displayVideos(videosArray);
+    });    
+}
 
+function makeVideoHTML(videoObject) {
+    return `
+    <div class="video">
+        <img src="https://img.youtube.com/vi/${videoObject.id}/hqdefault.jpg" class="video__thumbnail" alt=${videoObject.title}">
+        <h3 class="video__title">${videoObject.title}</h3>
+        <p class="video__category">${videoObject.category}</p>
+    </div>`
+}
+
+function displayVideos(videos) {
     var html = '';
-    console.log(html);
-
-    for (var i = 0; i < videoArray.length; i++) {
-        html += makeVideoHTML(videoArray[i]);
-        console.log(html);
-
+    for (var i = 0; i < videos.length; i++) {
+        html += makeVideoHTML(videos[i]);
     }
+    el_videoList.html(html);
+}
 
-    $('#video-thumbnails').append(html);
-
-});
+init();
