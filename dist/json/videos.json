@@ -3,52 +3,62 @@
         {
         "id": "qY22HPfafSQ",
         "title": "What is Love?",
-        "category": "TWICE"
+        "category": "TWICE",
+        "categoryId": 1
         },
         {
         "id": "FIDJsPgjDnU",
         "title": "Dance The Night Away",
-        "category": "TWICE"
+        "category": "TWICE",
+        "categoryId": 1
         },
         {
         "id": "2BlwXXVCAFM",
         "title": "FANCY",
-        "category": "TWICE"
+        "category": "TWICE",
+        "categoryId": 1
         },
         {
         "id": "amUDYTx8R4g",
         "title": "LION",
-        "category": "(G)I-DLE"
+        "category": "(G)I-DLE",
+        "categoryId": 2
         },
         {
         "id": "XqWJO6GLnfE",
         "title": "Luv U",
-        "category": "(G)I-DLE"
+        "category": "(G)I-DLE",
+        "categoryId": 2
         },
         {
         "id": "bkGSf9VeWTE",
         "title": "Kill This Love",
-        "category": "Red Velvet"
+        "category": "Red Velvet",
+        "categoryId": 3
         },
         {
         "id": "_QNVIgXOrBM",
         "title": "Umpah Umpah",
-        "category": "Red Velvet"
+        "category": "Red Velvet",
+        "categoryId": 3
         },
         {
         "id": "1dxnzJEusc4",
         "title": "Blood Sweat & Tears",
-        "category": "BTS"
+        "category": "BTS",
+        "categoryId": 4
         },
         {
         "id": "EV4m3nX49ZE",
         "title": "Not Today",
-        "category": "BTS"
+        "category": "BTS",
+        "categoryId": 4
         },
         {
         "id": "QZDlXW05M0c",
         "title": "HOME",
-        "category": "SEVENTEEN"
+        "category": "SEVENTEEN",
+        "categoryId": 5
         }  
     ]
 }
