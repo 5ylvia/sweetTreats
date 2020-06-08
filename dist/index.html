@@ -1,17 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css" />
-    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script defer src="js/main.js"></script>
     <title>Document</title>
 </head>
+
 <body>
+    <div id="search-bar">
+        <label for="search-bar__input">Search Videos</label>
+        <input type="text" id="search-bar__input">
+        <input id="search-bar__button" type="button" value="Search">
+    </div>
     <section id="video-thumbnails">
 
 
     </section>
+    <section id="player">
+        <iframe id="player__frame" width="560" height="315" src="https://www.youtube.com/embed/qY22HPfafSQ"
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </section>
 </body>
+
 </html>
